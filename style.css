@@ -87,9 +87,12 @@ ul li {
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
-/* 6. リンク・ボタンのスタイル */
 a {
-  display: inline-block;
+  display: block;
+  max-width: 280px;
+  text-align: center;
+  margin: 15px auto 25px;
+  
   color: #fff;
   background-color: #3498db;
   text-decoration: none;
@@ -103,7 +106,7 @@ a {
 
 a:hover {
   background-color: #2980b9;
-  transform: translateY(-2px); /* ホバー時に少し浮き上がる演出 */
+  transform: translateY(-2px); 
   box-shadow: 0 6px 12px rgba(52, 152, 219, 0.3);
 }
 
